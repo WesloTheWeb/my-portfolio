@@ -23,4 +23,22 @@
 }
 
  
- 
+.socialmedia {
+    width: 45%;
+    grid-column-start: 2;
+    margin: 0 auto;
+    text-align: center;
+
+    background-color: #262529;
+    color: #fff;
+    border: 1px solid #707070;
+    border-radius: 25px; 
+    padding: 1.5em;
+     font-size: 16px;
+}
+
+.subsocialmedia a {
+    display: inline-block;
+    margin: 0 2em;
+}
+
