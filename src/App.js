@@ -36,8 +36,8 @@ function App() {
                 <li>Node.JS</li>
                 <li>Github / Git</li>
                 <li>API's</li>
-                <li>API's</li>
-                <li>API's</li>
+                <li>Agile</li>
+                <li>WordPress</li>
 
               </ul>
             </div>
