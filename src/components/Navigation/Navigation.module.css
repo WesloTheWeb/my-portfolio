@@ -1,0 +1,17 @@
+.navContainer {
+    background-color: #262529;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 2.5em;
+    border-bottom: 2px solid #707070;
+}
+
+.nav {
+    font-family: Lemonada, sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: #1B998B;
+    text-transform: capitalize;
+    margin: 0 1em;
+}
