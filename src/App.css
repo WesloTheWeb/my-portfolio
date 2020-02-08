@@ -20,3 +20,9 @@ body {
 #bioArrangement > div {
     padding: 0 2em;
 }
+
+#currentAbilities {
+    display: flex;
+}
+
+ 

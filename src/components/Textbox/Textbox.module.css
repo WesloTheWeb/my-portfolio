@@ -8,4 +8,6 @@
     font-size: 16px;
  }
 
- 
+ .text:not(:first-child) {
+     margin: 2em auto
+ }
