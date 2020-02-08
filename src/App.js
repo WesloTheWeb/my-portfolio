@@ -5,7 +5,6 @@ import SectionIntroduction from './components/SectionIntroduction/SectionIntrodu
 import Textbox from './components/Textbox/Textbox';
 import Social from './components/Social/Social';
 
-
 function App() {
   return (
     <div className="App">
@@ -46,9 +45,9 @@ function App() {
           </Textbox>
         </div>
         <Social />
-
-
       </div>
+      <SectionIntroduction>Projects</SectionIntroduction>
+
     </div>
   );
 }

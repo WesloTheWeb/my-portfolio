@@ -12,11 +12,6 @@ body {
     grid-template-columns: repeat(2,1fr);
 }
 
-#bioArrangement h1 {
-    color: lightseagreen;
-    font-family: 'Sriracha', cursive;
-}
-
 #bioArrangement > div {
     padding: 0 2em;
 }
