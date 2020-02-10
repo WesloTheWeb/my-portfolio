@@ -1,0 +1,39 @@
+#viewControls {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 0 1em;
+    padding: 0.5em 2em;
+    background-color: transparent;
+    color: #9F8488;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+#viewAll {
+    border: 1.2px solid #000;
+    color: #fff;
+    background-color: #5E5D5C;
+}
+
+#viewWebsites {
+    border:  1.2px solid #000;
+    color: #fff;
+    background-color: #2D5591;
+
+}
+
+#viewWebApps {
+    border: 1.2px solid #000;
+    color: #fff;
+    background-color: #A0322F;
+
+}
+
+#viewDesigns {
+    border: 1.2px solid #000;
+    color: #fff;
+    background-color: #568e2b;
+}

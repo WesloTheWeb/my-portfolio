@@ -4,6 +4,8 @@ import Navigation from './components/Navigation/Navigation';
 import SectionIntroduction from './components/SectionIntroduction/SectionIntroduction';
 import Bio from './components/Bio/Bio';
 import Social from './components/Social/Social';
+import ProjectViewControls from './components/containers/ProjectViewControls/ProjectViewControls';
+import ProjectView from  './components/containers/ProjectViewControls/ProjectView/ProjectView';
 
 function App() {
   return (
@@ -13,7 +15,11 @@ function App() {
         <Bio />
         <Social />
       </div>
-      <SectionIntroduction>Projects</SectionIntroduction>
+      <section className="contentSection">
+        <SectionIntroduction>Projects</SectionIntroduction>
+        <ProjectViewControls />
+        <ProjectView />
+      </section>
 
     </div>
   );

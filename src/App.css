@@ -4,6 +4,7 @@ html {
 
 body {
     background-color: #212024;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #bioArrangement {
@@ -13,6 +14,10 @@ body {
 }
 
 #bioArrangement > div {
+    padding: 0 2em;
+}
+
+.contentSection {
     padding: 0 2em;
 }
 
