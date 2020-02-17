@@ -9,6 +9,14 @@
     width: 50%;
 }
 
+.projectViewGrid a.locked {
+    display: block;
+    color: goldenrod;
+    text-decoration: none;
+    text-align: center;
+    margin: 33% auto;
+}
+
 .projectViewGrid a > img:hover {
     background-color: #000;
     opacity: 20%;
