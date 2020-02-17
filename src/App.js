@@ -7,6 +7,7 @@ import Bio from './components/Bio/Bio';
 import Social from './components/Social/Social';
 import ProjectViewControls from './containers/ProjectViewControls/ProjectViewControls';
 import ProjectView from './containers/ProjectViewControls/ProjectView/ProjectView';
+import Experience from './containers/Experience/Experience';
 import Contact from './components/Contact/Contact';
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
         </section>
         <section className="contentSection">
           <SectionIntroduction>Experience</SectionIntroduction>
-
+          <Experience />
         </section>
         <section className="contentSection">
           <SectionIntroduction>Contact</SectionIntroduction>
