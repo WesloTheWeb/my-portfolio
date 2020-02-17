@@ -13,3 +13,7 @@
 .project p {
     margin: 43% auto;
 }
+
+.project img {
+    width: 100%;
+}

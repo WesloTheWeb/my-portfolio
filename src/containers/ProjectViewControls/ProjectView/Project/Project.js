@@ -4,7 +4,7 @@ import classes from './Project.module.css';
 const project = (props) => {
     return (
         <div className={classes.project}>
-            <p>Test</p>
+            {props.children}
         </div>
     );
 };

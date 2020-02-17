@@ -4,3 +4,13 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
 }
+
+.projectPreview img {
+    width: 50%;
+}
+
+.projectViewGrid a > img:hover {
+    background-color: #000;
+    opacity: 20%;
+    content: "UWU";
+}
