@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classes from './ProjectView.module.css';
 import Project from './Project/Project';
 
@@ -8,7 +8,7 @@ const { projectViewGrid} = classes;
 
 const ProjectView = (props) => {
 
-    const [projectViews, setProjectViews] = useState(2);
+    // const [projectViews, setProjectViews] = useState(2);
 
     return (
         <section className={projectViewGrid}>
@@ -18,7 +18,6 @@ const ProjectView = (props) => {
             <Project />
             <Project />
             <Project />
-
         </section>
     );
 };

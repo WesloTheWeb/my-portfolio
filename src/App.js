@@ -4,8 +4,9 @@ import Navigation from './components/Navigation/Navigation';
 import SectionIntroduction from './components/SectionIntroduction/SectionIntroduction';
 import Bio from './components/Bio/Bio';
 import Social from './components/Social/Social';
-import ProjectViewControls from './components/containers/ProjectViewControls/ProjectViewControls';
-import ProjectView from  './components/containers/ProjectViewControls/ProjectView/ProjectView';
+import ProjectViewControls from './containers/ProjectViewControls/ProjectViewControls';
+import ProjectView from './containers/ProjectViewControls/ProjectView/ProjectView';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -20,7 +21,14 @@ function App() {
         <ProjectViewControls />
         <ProjectView />
       </section>
+      <section className="contentSection">
+        <SectionIntroduction>Experience</SectionIntroduction>
 
+      </section>
+      <section className="contentSection">
+        <SectionIntroduction>Contact</SectionIntroduction>
+        <Contact/>  
+      </section>
     </div>
   );
 }

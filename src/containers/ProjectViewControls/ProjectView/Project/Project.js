@@ -3,7 +3,9 @@ import classes from './Project.module.css';
 
 const project = (props) => {
     return (
-        <div className={classes.project}>Test</div>
+        <div className={classes.project}>
+            <p>Test</p>
+        </div>
     );
 };
 

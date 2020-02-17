@@ -1,10 +1,15 @@
 .project {
     border: 1.5px solid purple;
+    box-sizing: border-box;
     background-color: darkgrey;
     color: #fff;
     font-size: 2em;
     text-align: center;
     width:75%;
-    height: 10em;
+    height: 320px;
     margin: 0 auto;
+}
+
+.project p {
+    margin: 43% auto;
 }
