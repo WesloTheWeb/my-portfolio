@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import classes from './Navigation.module.css';
 import Auxillary from '../../hoc/Auxillary/Auxillary';
 import resume from '../../assets/files/WesleyWebster_Resume.pdf';
+import MobileNavigation from './MobileNavigation/MobileNavigation';
 
 const { nav, navContainer } = classes;
 
@@ -22,6 +23,7 @@ const navigation = (props) => {
             <a href={resume} target="_blank" rel="noopener noreferrer" className={nav}>Resume</a>
             <a href="#contact" className={nav}>Contact</a>
         </div>
+        <MobileNavigation />
         </Auxillary>
      );
 };

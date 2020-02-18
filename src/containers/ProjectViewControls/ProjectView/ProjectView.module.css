@@ -5,6 +5,12 @@
     grid-gap: 1em;
 }
 
+@media only screen and (max-width: 597px) {
+    .projectViewGrid {
+        display: block;
+    }
+}
+
 .projectPreview img {
     width: 50%;
 }

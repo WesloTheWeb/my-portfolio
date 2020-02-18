@@ -36,31 +36,7 @@ const ProjectView = (props) => {
                     <img src={mainStreetJusticeSample} alt="Main Street Justice's spotlight preview" />
                 </a>
             </Project>
-            <Project>
-                <a href="/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={locked}>
-                    Coming Soon!
-                </a>
-            </Project>
-            <Project>
-                <a href="/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={locked}>
-                    Coming Soon!
-                </a>
-            </Project>
-            <Project>
-                <a
-                    href="/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={locked}>
-                    Coming Soon!
-                </a>
-            </Project>
+
         </section>
     );
 };
