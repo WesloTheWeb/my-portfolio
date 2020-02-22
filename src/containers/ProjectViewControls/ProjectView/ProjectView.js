@@ -12,7 +12,7 @@ import MSJ_Sample from '../../../assets/files/CaseStudy-MSJ.pdf';
 
 
 // CSS
-const { projectViewGrid, locked } = classes;
+const { projectViewGrid } = classes;
 
 
 const ProjectView = (props) => {

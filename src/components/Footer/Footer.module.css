@@ -1,0 +1,10 @@
+.credits {
+    text-align: center;
+    background: darkgreen;
+    color: #fff;
+    height: 4em;
+}
+
+.credits > p {
+    padding-top: 1em;
+}

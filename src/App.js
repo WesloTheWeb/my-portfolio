@@ -10,7 +10,7 @@ import ProjectView from './containers/ProjectViewControls/ProjectView/ProjectVie
 import Experience from './containers/Experience/Experience';
 import Contact from './components/Contact/Contact';
 import Collection from './containers/Collection/Collection';
-
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -35,6 +35,7 @@ function App() {
           <SectionIntroduction>Contact</SectionIntroduction>
           <Contact />
         </section>
+          <Footer />
       </div>
     </BrowserRouter>
   );
