@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import './App.css';
 import Navigation from './components/Navigation/Navigation';
 import SectionIntroduction from './components/SectionIntroduction/SectionIntroduction';
@@ -9,6 +9,8 @@ import Social from './components/Social/Social';
 import ProjectView from './containers/ProjectViewControls/ProjectView/ProjectView';
 import Experience from './containers/Experience/Experience';
 import Contact from './components/Contact/Contact';
+import Collection from './containers/Collection/Collection';
+
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
           <SectionIntroduction>Projects</SectionIntroduction>
           {/* <ProjectViewControls /> */}
           <ProjectView />
+          <Route path="/projects" component={Collection} exact />
         </section>
         <section id="experience" className="contentSection">
           <SectionIntroduction>Experience</SectionIntroduction>
