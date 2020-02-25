@@ -7,8 +7,8 @@ const mobileNavigation = (props) => {
 
     return (
         <div className={classes.MobileNavigation}>
-            {/* <MobileToggle clicked={props.mobileToggleClicked} /> */}
-            <MobileSideBar />
+            <MobileToggle clicked={props.mobileToggleClicked} />
+            {/* <MobileSideBar /> */}
         </div>
      );
 };
