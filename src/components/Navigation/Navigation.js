@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import classes from './Navigation.module.css';
 import Auxillary from '../../hoc/Auxillary/Auxillary';
 import resume from '../../assets/files/WesleyWebster_Resume.pdf';
@@ -10,8 +10,17 @@ import { Link } from 'react-router-dom';
 const { nav, navContainer } = classes;
 
  
-const navigation = (props) => {
+const Navigation = (props) => {
 
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const openHandler = () => {
+        if (!isMenuOpen) {
+            setIsMenuOpen(true)
+        } else {
+            setIsMenuOpen(false)
+        }
+    }
  
     return (
         <Auxillary>
@@ -28,4 +37,4 @@ const navigation = (props) => {
 };
 
 
-export default navigation;
+export default Navigation;

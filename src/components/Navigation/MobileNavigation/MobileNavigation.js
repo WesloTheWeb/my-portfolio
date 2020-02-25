@@ -1,12 +1,14 @@
 import React from 'react';
 import classes from './MobileNavigation.module.css';
-
+import MobileToggle from './MobileToggle/MobileToggle';
+import MobileSideBar from './MobileSideBar/MobileSideBar';
 
 const mobileNavigation = (props) => {
 
     return (
         <div className={classes.MobileNavigation}>
-            <div href="/">Menu</div>
+            {/* <MobileToggle clicked={props.mobileToggleClicked} /> */}
+            <MobileSideBar />
         </div>
      );
 };

@@ -1,0 +1,32 @@
+.sideBarLayout {
+    position: fixed;
+    width: 280px;
+    max-width: 70%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    background-color: #262529;
+    /* padding: 32px 16px; */
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+}
+
+.sideBarLayout a, .sideBarLayout div {
+    display: block;
+    text-decoration: none;
+    color: #1B998B;
+    border: white solid 1px;
+    padding: .8em ;
+}
+ 
+.sideBarnav {
+    font-family: Lemonada, sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: #1B998B;
+    text-transform: capitalize;
+    /* margin: 0 1em; */
+}
+
+

@@ -4,7 +4,7 @@ import Textbox from '../../components/Textbox/Textbox';
 import ProjectViewControls from '../ProjectViewControls/ProjectViewControls';
 import ProjectView from '../ProjectViewControls/ProjectView/ProjectView';
 
-const { label, websites, webapps, designs, githubLink } = classes;
+const { label, websites, githubLink } = classes;
 
 const collection = (props) => {
     return (
