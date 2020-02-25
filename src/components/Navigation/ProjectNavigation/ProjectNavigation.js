@@ -16,11 +16,11 @@ const navigation = (props) => {
     return (
         <Auxillary>
         <div className={navContainer}>
-            <a href="/" className={nav}>Home</a>
+            <Link to="/" className={nav}>Home</Link>
             <Link to="/projects" className={nav}>Projects</Link>
-            <a href="#experience" className={nav}>Experience</a>
+            <Link to="/" className={nav}>Experience</Link>
             <a href={resume} target="_blank" rel="noopener noreferrer" className={nav}>Resume</a>
-            <a href="#contact" className={nav}>Contact</a>
+            <Link to="/" className={nav}>Contact</Link>
         </div>
         <MobileNavigation />
         </Auxillary>
