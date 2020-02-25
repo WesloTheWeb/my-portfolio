@@ -1,8 +1,8 @@
 import React from 'react';
-import classes from './Navigation.module.css';
-import Auxillary from '../../hoc/Auxillary/Auxillary';
-import resume from '../../assets/files/WesleyWebster_Resume.pdf';
-import MobileNavigation from './MobileNavigation/MobileNavigation';
+import classes from '../Navigation.module.css';
+import Auxillary from '../../../hoc/Auxillary/Auxillary';
+import resume from '../../../assets/files/WesleyWebster_Resume.pdf';
+import MobileNavigation from '../MobileNavigation/MobileNavigation';
 // import Collection from './containers/Collection/Collection';
 import { Link } from 'react-router-dom';
 
