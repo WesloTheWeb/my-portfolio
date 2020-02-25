@@ -24,8 +24,7 @@ function App() {
           <Route path="/projects" component={Collection} exact />
         </section>
         <section id="experience" className="contentSection">
-          <SectionIntroduction>Experience</SectionIntroduction>
-          <Experience />
+          <Route path="/" component={Experience} exact />
         </section>
         <section id="contact" className="contentSection">
           <SectionIntroduction>Contact</SectionIntroduction>
