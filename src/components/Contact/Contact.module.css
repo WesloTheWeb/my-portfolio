@@ -1,0 +1,14 @@
+.contactBtn {
+    background-color: #ff8c00;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: bold;
+    margin: 1em auto;
+    text-align: center;
+    display: block;
+}
+
+.contactLink {
+    color: #fff;
+    text-decoration: none;
+}

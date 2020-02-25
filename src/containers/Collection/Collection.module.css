@@ -1,10 +1,30 @@
 .label {
-    border: 1px solid #2D5591;
+    border: 1px solid;
     box-sizing: border-box;
-    max-width: 10%;
     padding: .4em .2em;
     margin-top: 2em;
-    color: #9F8488;
+    color: #fff;
     font-weight: bold;
     text-align: center;
+}
+
+#websites {
+    background-color: #2D5591;
+    border-color: #2D5591;
+}
+
+#webapps {
+    background-color: #A0322F;
+    border-color: #A0322F;
+}
+
+#designs {
+    background-color: #568e2b;
+    border-color: #568e2b;
+}
+
+a.githubLink {
+    text-decoration: none;
+    color: limegreen;
+
 }

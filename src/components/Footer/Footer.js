@@ -4,7 +4,7 @@ import classes from './Footer.module.css';
 const footer = (props) => {
     return (
         <div className={classes.credits}>
-            <p>Designed and built by<br/> Wesley Webster</p>
+            <p>Designed and built by<br/> Wesley Webster &copy;2020 - 2021</p>
         </div>
     );
 };
