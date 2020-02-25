@@ -1,6 +1,5 @@
 import React from 'react';
 import classes from './ProjectView.module.css';
-import SectionIntroduction from '../../../components/SectionIntroduction/SectionIntroduction';
 import Project from './Project/Project';
 
 // IMAGES
@@ -21,27 +20,24 @@ const ProjectView = (props) => {
     // const [projectViews, setProjectViews] = useState(2);
 
     return (
-        <>
-            <SectionIntroduction>Projects</SectionIntroduction>
-            <section className={projectViewGrid}>
-                <Project>
-                    <a href={kohlsSample} target="_blank" rel="noopener noreferrer">
-                        <img src={Kohls} alt="Kohl's spotlight preview" />
-                    </a>
-                </Project>
-                <Project>
-                    <a href={MCW_Sample} target="_blank" rel="noopener noreferrer">
-                        <img src={medicalCollegeWisconsin} alt="Medical College of Wisconsin spotlight preview" />
-                    </a>
-                </Project>
-                <Project>
-                    <a href={MSJ_Sample} target="_blank" rel="noopener noreferrer">
-                        <img src={mainStreetJusticeSample} alt="Main Street Justice's spotlight preview" />
-                    </a>
-                </Project>
+        <section className={projectViewGrid}>
+            <Project>
+                <a href={kohlsSample} target="_blank" rel="noopener noreferrer">
+                    <img src={Kohls} alt="Kohl's spotlight preview" />
+                </a>
+            </Project>
+            <Project>
+                <a href={MCW_Sample} target="_blank" rel="noopener noreferrer">
+                    <img src={medicalCollegeWisconsin} alt="Medical College of Wisconsin spotlight preview" />
+                </a>
+            </Project>
+            <Project>
+                <a href={MSJ_Sample} target="_blank" rel="noopener noreferrer">
+                    <img src={mainStreetJusticeSample} alt="Main Street Justice's spotlight preview" />
+                </a>
+            </Project>
 
-            </section>
-        </>
+        </section>
     );
 };
 
