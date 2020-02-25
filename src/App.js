@@ -27,8 +27,7 @@ function App() {
           <Route path="/" component={Experience} exact />
         </section>
         <section id="contact" className="contentSection">
-          <SectionIntroduction>Contact</SectionIntroduction>
-          <Contact />
+          <Route path="/" component={Contact} exact />
         </section>
           <Footer />
       </div>
