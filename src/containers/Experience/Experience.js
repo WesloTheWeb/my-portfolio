@@ -1,5 +1,7 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import SectionIntroduction from '../../components/SectionIntroduction/SectionIntroduction';
+
 import 'react-vertical-timeline-component/style.min.css';
 import classes from './Experience.module.css';
 
@@ -8,6 +10,7 @@ const { experienceSpotlight } = classes;
 const experience = (props) => {
     return (
         <>
+            <SectionIntroduction>Experience</SectionIntroduction>
             <VerticalTimeline>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
