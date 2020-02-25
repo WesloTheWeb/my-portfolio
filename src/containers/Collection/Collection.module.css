@@ -1,3 +1,10 @@
-.Label {
-    
+.label {
+    border: 1px solid #2D5591;
+    box-sizing: border-box;
+    max-width: 10%;
+    padding: .4em .2em;
+    margin-top: 2em;
+    color: #9F8488;
+    font-weight: bold;
+    text-align: center;
 }

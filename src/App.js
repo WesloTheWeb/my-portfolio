@@ -21,7 +21,7 @@ function App() {
         <section id="projects" className="contentSection">
           <SectionIntroduction>Projects</SectionIntroduction>
           <Route path="/projects" component={Collection} exact />
-          <ProjectView />
+        <Route path="/" component={ProjectView} exact />
         </section>
         <section id="experience" className="contentSection">
           <Route path="/" component={Experience} exact />
