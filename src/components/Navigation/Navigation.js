@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classes from './Navigation.module.css';
 import Auxillary from '../../hoc/Auxillary/Auxillary';
 import resume from '../../assets/files/WesleyWebster_Resume.pdf';
@@ -9,11 +9,7 @@ import { Link } from 'react-router-dom';
 
 const { nav, navContainer } = classes;
 
-function Scroll () {
-    const [prevScrollPos, newScrollPos] = useState(0);
-
-}
-
+ 
 const navigation = (props) => {
 
  

@@ -1,6 +1,6 @@
 import React from 'react';
-import Textbox from '../Textbox/Textbox';
-import SectionIntroduction from '../SectionIntroduction/SectionIntroduction';
+import Textbox from '../../Textbox/Textbox';
+import SectionIntroduction from '../../SectionIntroduction/SectionIntroduction';
 
 const bio = (props) => {
     return (
