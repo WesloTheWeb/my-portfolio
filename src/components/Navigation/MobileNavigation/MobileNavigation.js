@@ -1,7 +1,8 @@
 import React from 'react';
 import classes from './MobileNavigation.module.css';
 import MobileToggle from './MobileToggle/MobileToggle';
-import MobileSideBar from './MobileSideBar/MobileSideBar';
+// import MobileSideBar from './MobileSideBar/MobileSideBar';
+// import MobilePageNavigator from './MobilePageNavigator/MobilePageNavigator';
 
 const mobileNavigation = (props) => {
 
