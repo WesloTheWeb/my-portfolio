@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classes from './Navigation.module.css';
 import Auxillary from '../../hoc/Auxillary/Auxillary';
 import resume from '../../assets/files/WesleyWebster_Resume.pdf';
@@ -12,15 +12,15 @@ const { nav, navContainer } = classes;
  
 const Navigation = (props) => {
 
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    // const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    const openHandler = () => {
-        if (!isMenuOpen) {
-            setIsMenuOpen(true)
-        } else {
-            setIsMenuOpen(false)
-        }
-    }
+    // const openHandler = () => {
+    //     if (!isMenuOpen) {
+    //         setIsMenuOpen(true)
+    //     } else {
+    //         setIsMenuOpen(false)
+    //     }
+    // }
  
     return (
         <Auxillary>
