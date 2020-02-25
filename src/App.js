@@ -5,7 +5,6 @@ import Navigation from './components/Navigation/Navigation';
 import ProjectNavigation from './components/Navigation/ProjectNavigation/ProjectNavigation';
 import SectionIntroduction from './components/SectionIntroduction/SectionIntroduction';
 import Intro from './components/Intro/Intro';
-// import ProjectViewControls from './containers/ProjectViewControls/ProjectViewControls';
 import ProjectView from './containers/ProjectViewControls/ProjectView/ProjectView';
 import Experience from './containers/Experience/Experience';
 import Contact from './components/Contact/Contact';
@@ -21,9 +20,8 @@ function App() {
         <Route path="/" component={Intro} exact />
         <section id="projects" className="contentSection">
           <SectionIntroduction>Projects</SectionIntroduction>
-          {/* <ProjectViewControls /> */}
-          <ProjectView />
           <Route path="/projects" component={Collection} exact />
+          <ProjectView />
         </section>
         <section id="experience" className="contentSection">
           <Route path="/" component={Experience} exact />
