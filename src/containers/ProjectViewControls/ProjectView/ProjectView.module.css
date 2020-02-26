@@ -24,7 +24,11 @@
 }
 
 .projectViewGrid a > img:hover {
-    /* background-color: #000; */
     opacity: .5;
-    content: "UWU";
+}
+
+@media only screen and (max-width: 769px) {
+    .projectViewGrid a > img:hover {
+        opacity: 1;
+    }
 }
