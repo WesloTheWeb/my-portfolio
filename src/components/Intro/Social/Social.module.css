@@ -3,8 +3,9 @@
 }
 
 #image img {
-    border-radius: 50%;
-    width: 45%;
+    /* border-radius: 50%; */
+    /* width: 45%; */
+    width: 31%;
     height: auto;
      /* Firefox 3.5+, IE10 */
     filter: gray;

@@ -1,6 +1,8 @@
 import React from 'react';
 import classes from './Social.module.css';
 import standardAVI from '../../../assets/images/standard_avi.jpg';
+import recentAVI from '../../../assets/images/recentPhoto.jpg';
+
 import Auxillary from '../../../hoc/Auxillary/Auxillary';
 
 const { image, socialmedia, subsocialmedia } = classes;
@@ -10,7 +12,7 @@ const social = (props) => {
         <Auxillary>
             <section>
             <div id={image}>
-                <img src={standardAVI} alt="wesley" />
+                <img src={recentAVI} alt="wesley" />
             </div>
             <section className={socialmedia}>
                 <div className={subsocialmedia}>
