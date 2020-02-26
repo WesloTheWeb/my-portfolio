@@ -22,7 +22,7 @@ const bio = (props) => {
                         <li>(S)CSS</li>
                         <li>JavaScript (ES6+)</li>
                         <li>jQuery</li>
-                        <li>Adobe Photoshop, XD, Illustrator</li>
+                        <li>Adobe (Photoshop XD Illustrator)</li>
                         <li>Sketch</li>
                     </ul>
                     <ul>
