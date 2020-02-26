@@ -25,6 +25,6 @@
 
 .projectViewGrid a > img:hover {
     /* background-color: #000; */
-    opacity: 50%;
+    opacity: 80%;
     content: "UWU";
 }
