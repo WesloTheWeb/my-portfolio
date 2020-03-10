@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from '../Navigation.module.css';
+import classes from '../Navigation.module.scss';
 import Auxillary from '../../../hoc/Auxillary/Auxillary';
 import resume from '../../../assets/files/WesleyWebster_Resume.pdf';
 import MobileNavigation from '../MobileNavigation/MobileNavigation';

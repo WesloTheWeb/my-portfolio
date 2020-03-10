@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './ProjectView.module.css';
+import classes from './ProjectView.module.scss';
 import Project from './Project/Project';
 
 // IMAGES

@@ -1,6 +1,6 @@
 import React from 'react';
-import classes from './Social.module.css';
-import standardAVI from '../../../assets/images/standard_avi.jpg';
+import classes from './Social.module.scss';
+// import standardAVI from '../../../assets/images/standard_avi.jpg';
 import recentAVI from '../../../assets/images/recentPhoto.jpg';
 
 import Auxillary from '../../../hoc/Auxillary/Auxillary';

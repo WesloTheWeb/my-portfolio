@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './MobileToggle.module.css';
+import classes from './MobileToggle.module.scss';
 
 const mobileToggle = (props) => {
     return (

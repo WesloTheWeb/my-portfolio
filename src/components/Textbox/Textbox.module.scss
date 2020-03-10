@@ -1,11 +1,13 @@
+@import '../../variables.scss';
+
 .text {
-    background-color: #262529;
-    color: #fff;
+    color: $generalTextColor;
+    background-color: $generalTextBackground;
     border: 1px solid #707070;
     border-radius: 25px; 
     padding: 1.5em;
     /* opacity: 50%; */
-    font-size: 1.2em;
+    font-size: $generalTextSize;
  }
 
  .text:not(:first-child) {

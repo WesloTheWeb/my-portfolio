@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './ProjectViewControls.module.css';
+import classes from './ProjectViewControls.module.scss';
 // viewWebApps, viewDesigns
 const { viewControls, viewAll, viewWebsites, } = classes;
 

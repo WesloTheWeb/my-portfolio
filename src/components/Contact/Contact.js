@@ -1,6 +1,6 @@
 import React from 'react';
 import Textbox from '../Textbox/Textbox';
-import classes from './Contact.module.css';
+import classes from './Contact.module.scss';
 import SectionIntroduction from '../SectionIntroduction/SectionIntroduction';
 
 const contact = (props) => {

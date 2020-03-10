@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './SectionIntroduction.module.css';
+import classes from './SectionIntroduction.module.scss';
 
 
 const sectionIntro = (props) => {

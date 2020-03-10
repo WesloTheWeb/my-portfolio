@@ -1,5 +1,7 @@
+@import '../../variables.scss';
+
 .contactBtn {
-    background-color: #ff8c00;
+    background-color: $contactColor;
     border-radius: 25px;
     color: #fff;
     font-weight: bold;

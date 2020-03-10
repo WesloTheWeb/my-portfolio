@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './MobileNavigation.module.css';
+import classes from './MobileNavigation.module.scss';
 import { Link } from 'react-router-dom';
 import MobileToggle from './MobileToggle/MobileToggle';
 import resume from '../../../assets/files/WesleyWebster_Resume.pdf';

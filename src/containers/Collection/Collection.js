@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Collection.module.css';
+import classes from './Collection.module.scss';
 import Textbox from '../../components/Textbox/Textbox';
 import ProjectViewControls from '../ProjectViewControls/ProjectViewControls';
 import ProjectView from '../ProjectViewControls/ProjectView/ProjectView';

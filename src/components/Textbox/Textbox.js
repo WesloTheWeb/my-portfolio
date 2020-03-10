@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Textbox.module.css';
+import classes from './Textbox.module.scss';
 
 const { text } = classes
 

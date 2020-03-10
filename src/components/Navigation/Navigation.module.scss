@@ -1,10 +1,12 @@
+@import '../../variables.scss';
+
 .navContainer {
-    background-color: #262529;
+    background-color: $navBackground;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     height: 2.5em;
-    border-bottom: 2px solid #707070;
+    border-bottom: 2px solid $navBottomBorder;
 }
 
 @media only screen and (max-width: 596px) {
@@ -17,7 +19,7 @@
     font-family: Lemonada, sans-serif;
     font-size: 1em;
     text-decoration: none;
-    color: #FFF8B5;
+    color: $navLinkColor;
     text-transform: capitalize;
     margin: 0 1em;
 }

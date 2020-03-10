@@ -1,7 +1,7 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import classes from './Experience.module.css';
+import classes from './Experience.module.scss';
 import SectionIntroduction from '../../components/SectionIntroduction/SectionIntroduction';
 
 const { experienceSpotlight } = classes;
