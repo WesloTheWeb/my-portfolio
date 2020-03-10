@@ -1,17 +1,29 @@
 import React from 'react';
 import classes from './MobileNavigation.module.css';
+import { Link } from 'react-router-dom';
 import MobileToggle from './MobileToggle/MobileToggle';
-// import MobileSideBar from './MobileSideBar/MobileSideBar';
-// import MobilePageNavigator from './MobilePageNavigator/MobilePageNavigator';
+import resume from '../../../assets/files/WesleyWebster_Resume.pdf';
+
 
 const mobileNavigation = (props) => {
 
     return (
         <div className={classes.MobileNavigation}>
-            <MobileToggle clicked={props.mobileToggleClicked} />
+            <MobileToggle>
+                <Link to="/">Home</Link>
+            </MobileToggle>
+            <MobileToggle>
+                <Link to="/projects">Projects</Link>
+            </MobileToggle>
+            <MobileToggle>
+                <a href={resume}
+                    target="_blank"
+                    rel="noopener noreferrer">Resume</a>
+            </MobileToggle>
+
             {/* <MobileSideBar /> */}
         </div>
-     );
+    );
 };
 
 
