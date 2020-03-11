@@ -5,6 +5,9 @@ import Textbox from '../../../../components/Textbox/Textbox';
 
 // images
 import coverImage from '../../../../assets/images/Kohls_Sample.png';
+import samplePhoto1 from '../../../../assets/images/Cases/Webview-1.png';
+import samplePhoto2 from '../../../../assets/images/Cases/Webview-2.png';
+import samplePhoto3 from '../../../../assets/images/Cases/Webview-3.png';
 
 const { info, photoArray } = classes;
 
@@ -59,7 +62,10 @@ const CaseKohls = (props) => {
                     </p>
                 </Textbox>
                 <section className={photoArray}>
-                    uwu
+                    <img src={samplePhoto1} />
+                    <img src={samplePhoto2} />
+                    <img src={samplePhoto3} />
+
                 </section>
             </ShowCase>
         </div>
