@@ -11,16 +11,23 @@ import Contact from './components/Contact/Contact';
 import Collection from './containers/Collection/Collection';
 import Footer from './components/Footer/Footer';
 
+// Pieces
+import KohlsCase from './containers/Collection/Showcase/ProjectWebsitesFull/CaseKohls';
+
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
         <Route path="/" component={Navigation} exact />
-        <Route path="/projects" component={ProjectNavigation} exact />
+        <Route path="/projects" component={ProjectNavigation}  />
         <Route path="/" component={Intro} exact />
         <section id="projects" className="contentSection">
           <SectionIntroduction>Projects</SectionIntroduction>
           <Route path="/projects" component={Collection} exact />
+          <Route path="/projects/kohls" 
+            component={KohlsCase} 
+            exact 
+            />
         <Route path="/" component={ProjectView} exact />
         </section>
         <section id="experience" className="contentSection">

@@ -39,3 +39,32 @@ body {
     }
 }
 
+// Grid
+.splitDivide {
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 2em;
+}
+
+@media only screen and (max-width: 500px) {
+    .splitDivide { 
+        display: block;
+    }
+}
+
+.splitDivide section {
+    margin: 0 1em;
+}
+
+@media only screen and (max-width: 500px) {
+    .splitDivide section {
+        margin: 1em;
+    }
+}
+
+.splitDivideAlt {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 2em;
+
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './ProjectView.module.scss';
 import Project from './Project/Project';
-
+import { Link, Route, withRouter } from 'react-router-dom';
 // IMAGES
 import Kohls from '../../../assets/images/Kohls_Sample.png';
 import kohlsSample from '../../../assets/files/WorkSample_Kohls.pdf';
@@ -22,9 +22,12 @@ const ProjectView = (props) => {
     return (
         <section className={projectViewGrid}>
             <Project>
-                <a href={kohlsSample} target="_blank" rel="noopener noreferrer">
+                <Link to={props.match.url + "/kohls"}>
+                <img src={Kohls} alt="Kohl's spotlight preview" />
+                </Link>
+                {/* <a href={kohlsSample} target="_blank" rel="noopener noreferrer">
                     <img src={Kohls} alt="Kohl's spotlight preview" />
-                </a>
+                </a> */}
             </Project>
             <Project>
                 <a href={MCW_Sample} target="_blank" rel="noopener noreferrer">
@@ -42,4 +45,4 @@ const ProjectView = (props) => {
 };
 
 
-export default ProjectView;
+export default withRouter(ProjectView);
