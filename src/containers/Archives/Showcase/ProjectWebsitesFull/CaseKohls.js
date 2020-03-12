@@ -106,7 +106,7 @@ const CaseKohls = (props) => {
                             <h3>Tools used</h3>
                             <ul>
                                 <li>HTML</li>
-                                <li>css</li>
+                                <li>CSS</li>
                                 <li>JavaScript (ES5)</li>
                             </ul>
 

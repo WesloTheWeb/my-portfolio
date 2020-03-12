@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, } from 'react-router-dom';
+import { BrowserRouter, Route, Link, } from 'react-router-dom';
 import './App.scss';
 import Navigation from './components/Navigation/Navigation';
 import ProjectNavigation from './components/Navigation/ProjectNavigation/ProjectNavigation';
@@ -10,6 +10,7 @@ import Experience from './containers/Experience/Experience';
 import Contact from './components/Contact/Contact';
 import Archives from './containers/Archives/Archives';
 import Footer from './components/Footer/Footer';
+import Textbox from './components/Textbox/Textbox';
 
 // Pieces
 import KohlsCase from './containers/Archives/Showcase/ProjectWebsitesFull/CaseKohls';
@@ -28,6 +29,10 @@ function App() {
             component={KohlsCase} 
             exact 
             />
+          <Route path="/" exact>
+            <Textbox>Recent projects.<br/><b>Note: currently under construction. View full projects via Navigation or <Link to="projects">here</Link></b></Textbox>
+          </Route>
+
         <Route path="/" component={ProjectView} exact />
         </section>
         <section id="experience" className="contentSection">
