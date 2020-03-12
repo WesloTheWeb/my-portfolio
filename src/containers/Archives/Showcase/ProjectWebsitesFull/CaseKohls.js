@@ -87,7 +87,7 @@ const CaseKohls = (props) => {
     return (
         <div>
             <ShowCase
-                title="Kohl's Corporate"
+                title="Kohl’s Corporate"
                 image={coverImage}>
                 <Textbox>
                     <p>
