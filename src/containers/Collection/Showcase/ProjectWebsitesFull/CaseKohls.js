@@ -10,6 +10,7 @@ import samplePhoto2 from '../../../../assets/images/Cases/Webview-2.png';
 import samplePhoto3 from '../../../../assets/images/Cases/Webview-3.png';
 
 const { info, photoArray } = classes;
+const ReactMarkdown = require('react-markdown');
 
 
 const CaseKohls = (props) => {
@@ -19,6 +20,7 @@ const CaseKohls = (props) => {
                 title="Kohl's Corporate"
                 image={coverImage}>
                 <Textbox>
+                    <h2>This Page is actively under construction, to see the original go to "Home" and click the same image from there</h2>
                     <p>
                         In my role at Kohl’s, I was in charge of the Homepage and Coupon page of
                         http://www.kohls.com. As expected, the homepage and coupon pages are constantly changing on
@@ -62,11 +64,18 @@ const CaseKohls = (props) => {
                     </p>
                 </Textbox>
                 <section className={photoArray}>
-                    <img src={samplePhoto1} />
-                    <img src={samplePhoto2} />
-                    <img src={samplePhoto3} />
+                    <img src={samplePhoto1} alt="composite look at the Kohl's sale page" />
+                    <img src={samplePhoto2} alt="Sale event elements" />
+                    <img src={samplePhoto3} alt="Kohl's webpage view" />
 
                 </section>
+                <Textbox>
+                <ReactMarkdown lang="markup">
+                       ```js
+                        const uwu = owo;
+                        ```
+                    </ReactMarkdown>
+                </Textbox>
             </ShowCase>
         </div>
     );

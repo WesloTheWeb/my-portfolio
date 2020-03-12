@@ -16,6 +16,7 @@ const bio = (props) => {
                 tech meet ups, staying hungry and getting out of my comfort zone.
             </Textbox>
             <Textbox>
+            <h2>Current Skills:</h2>
                 <div id="currentAbilities">
                     <ul>
                         <li>HTML5</li>

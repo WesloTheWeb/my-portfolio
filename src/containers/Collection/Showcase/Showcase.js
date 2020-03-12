@@ -9,7 +9,7 @@ const showcase = (props) => {
         <>
             <h1 className={showCaseTitle}>{props.title}</h1>
             <div className={coverImage}>
-                <img src={props.image} />
+                <img src={props.image} alt="featured product"/>
             </div>
             <div>{props.children}</div>
         </>
