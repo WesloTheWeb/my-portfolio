@@ -3,6 +3,8 @@ import ShowCase from '../Showcase';
 import classes from '../Showcase.module.scss';
 import Textbox from '../../../../components/Textbox/Textbox';
 
+import kohlsSample from '../../../../assets/files/WorkSample_Kohls.pdf';
+
 // images
 import coverImage from '../../../../assets/images/Kohls_Sample.png';
 import samplePhoto1 from '../../../../assets/images/Cases/Webview-1.png';
@@ -20,7 +22,7 @@ const CaseKohls = (props) => {
                 title="Kohl's Corporate"
                 image={coverImage}>
                 <Textbox>
-                    <h2>This Page is actively under construction, to see the original go to "Home" and click the same image from there</h2>
+                    <h2>This Page is actively under construction, to see the original <a href={kohlsSample} target="_blank" rel="noopener noreferrer">click here</a></h2>
                     <p>
                         In my role at Kohl’s, I was in charge of the Homepage and Coupon page of
                         http://www.kohls.com. As expected, the homepage and coupon pages are constantly changing on

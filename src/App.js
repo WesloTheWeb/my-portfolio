@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, } from 'react-router-dom';
 import './App.scss';
 import Navigation from './components/Navigation/Navigation';
 import ProjectNavigation from './components/Navigation/ProjectNavigation/ProjectNavigation';
@@ -8,11 +8,11 @@ import Intro from './components/Intro/Intro';
 import ProjectView from './containers/ProjectViewControls/ProjectView/ProjectView';
 import Experience from './containers/Experience/Experience';
 import Contact from './components/Contact/Contact';
-import Collection from './containers/Collection/Collection';
+import Archives from './containers/Archives/Archives';
 import Footer from './components/Footer/Footer';
 
 // Pieces
-import KohlsCase from './containers/Collection/Showcase/ProjectWebsitesFull/CaseKohls';
+import KohlsCase from './containers/Archives/Showcase/ProjectWebsitesFull/CaseKohls';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
         <Route path="/" component={Intro} exact />
         <section id="projects" className="contentSection">
           <SectionIntroduction>Projects</SectionIntroduction>
-          <Route path="/projects" component={Collection} exact />
+          <Route path="/projects" component={Archives} exact />
           <Route path="/projects/kohls" 
             component={KohlsCase} 
             exact 

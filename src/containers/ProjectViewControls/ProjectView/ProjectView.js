@@ -1,10 +1,9 @@
 import React from 'react';
 import classes from './ProjectView.module.scss';
 import Project from './Project/Project';
-import { Link, Route, withRouter } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 // IMAGES
 import Kohls from '../../../assets/images/Kohls_Sample.png';
-import kohlsSample from '../../../assets/files/WorkSample_Kohls.pdf';
 import medicalCollegeWisconsin from '../../../assets/images/MCW_Sample.png';
 import MCW_Sample from '../../../assets/files/CaseStudy-MCW.pdf';
 import mainStreetJusticeSample from '../../../assets/images/MSJ_Sample.png';
@@ -25,9 +24,6 @@ const ProjectView = (props) => {
                 <Link to={props.match.url + "/kohls"}>
                 <img src={Kohls} alt="Kohl's spotlight preview" />
                 </Link>
-                {/* <a href={kohlsSample} target="_blank" rel="noopener noreferrer">
-                    <img src={Kohls} alt="Kohl's spotlight preview" />
-                </a> */}
             </Project>
             <Project>
                 <a href={MCW_Sample} target="_blank" rel="noopener noreferrer">

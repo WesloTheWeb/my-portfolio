@@ -1,12 +1,12 @@
 import React from 'react';
-import classes from './Collection.module.scss';
+import classes from './Archives.module.scss';
 import Textbox from '../../components/Textbox/Textbox';
 import ProjectViewControls from '../ProjectViewControls/ProjectViewControls';
 import ProjectView from '../ProjectViewControls/ProjectView/ProjectView';
 
 const { label, websites, githubLink } = classes;
 
-const collection = (props) => {
+const archives = (props) => {
     return (
         <>
         <Textbox>
@@ -26,4 +26,4 @@ const collection = (props) => {
 };
 
 
-export default collection;
+export default archives;
