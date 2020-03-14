@@ -14,6 +14,7 @@ import Textbox from './components/Textbox/Textbox';
 
 // Pieces
 import KohlsCase from './containers/Archives/Showcase/ProjectWebsitesFull/CaseKohls';
+import MSJCase from './containers/Archives/Showcase/ProjectWebsitesFull/CaseMSJ';
 
 function App() {
   return (
@@ -27,6 +28,10 @@ function App() {
           <Route path="/projects" component={Archives} exact />
           <Route path="/projects/kohls" 
             component={KohlsCase} 
+            exact 
+            />
+            <Route path="/projects/msj" 
+            component={MSJCase} 
             exact 
             />
           <Route path="/" exact>

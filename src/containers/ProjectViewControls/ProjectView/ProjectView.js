@@ -31,9 +31,12 @@ const ProjectView = (props) => {
                 </a>
             </Project>
             <Project>
-                <a href={MSJ_Sample} target="_blank" rel="noopener noreferrer">
+            <Link to={props.match.url + "/msj"}>
+                <img src={mainStreetJusticeSample} alt="MSJ Case" />
+                </Link>
+                {/* <a href={MSJ_Sample} target="_blank" rel="noopener noreferrer">
                     <img src={mainStreetJusticeSample} alt="Main Street Justice's spotlight preview" />
-                </a>
+                </a> */}
             </Project>
 
         </section>

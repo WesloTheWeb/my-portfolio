@@ -37,6 +37,14 @@
     margin: 0 auto;
 }
 
+.phaseTitle {
+    color: goldenrod;
+    font-weight: bold;
+    // font-size: 1.2em;
+}
+
+// Buttons
+
 #returnBtn {
     background-color: cornflowerblue;
     color: #fff;
@@ -44,4 +52,23 @@
     border-radius: 20px;
     padding: .5em;
     cursor: pointer;
+}
+
+#returnBtn:hover {
+    color: #000;
+}
+
+.launchBtn {
+    background-color: #20793D;
+    color: #fff;
+    cursor: pointer;
+    padding: .5em;
+    min-width: 20%;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: .8em;
+}
+
+.launchBtn:hover{ 
+    color: goldenrod;
 }
