@@ -28,7 +28,7 @@ const CaseMCW = (props) => {
                 title="Medical College of Wisconsin - Community Engagement Learning Repository (CELR)"
                 image={coverImage}>
                 <Textbox>
-                    <div className={`${testOne} ${testTwo}`}>Test</div>
+                    {/* <div className={`${testOne} ${testTwo}`}>Test</div> */}
                     <p>
                         This project I would classify as a definitive moment. This was during my time at Byte Studios working as
                         a team of 4 that consisted of: a front end developer, a backend developer,  a UXUI Designer, and our boss
