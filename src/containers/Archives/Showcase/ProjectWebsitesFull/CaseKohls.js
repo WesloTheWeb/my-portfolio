@@ -6,11 +6,11 @@ import Textbox from '../../../../components/Textbox/Textbox';
 
 // images
 import coverImage from '../../../../assets/images/Kohls_Sample.png';
-import samplePhoto1 from '../../../../assets/images/Cases/Webview-1.png';
-import samplePhoto2 from '../../../../assets/images/Cases/Webview-2.png';
-import samplePhoto3 from '../../../../assets/images/Cases/Webview-3.png';
-import couponsA from '../../../../assets/images/Cases/couponsA.png';
-import couponsB from '../../../../assets/images/Cases/couponsB.png';
+import samplePhoto1 from '../../../../assets/images/Cases/Kohls/Webview-1.png';
+import samplePhoto2 from '../../../../assets/images/Cases/Kohls/Webview-2.png';
+import samplePhoto3 from '../../../../assets/images/Cases/Kohls/Webview-3.png';
+import couponsA from '../../../../assets/images/Cases/Kohls/couponsA.png';
+import couponsB from '../../../../assets/images/Cases/Kohls/couponsB.png';
 
 const { info, photoArray } = classes;
 
