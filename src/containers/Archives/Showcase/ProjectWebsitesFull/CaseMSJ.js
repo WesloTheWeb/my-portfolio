@@ -17,7 +17,7 @@ import mobileView from '../../../../assets/images/Cases/MSJ/mobile_view.png';
 import staffPage from '../../../../assets/images/Cases/MSJ/staff_page.png';
 
 
-const { info, photoArray, launchBtn, phaseTitle } = classes;
+const { info, photoArray, launchBtn, phaseTitle, topBtn } = classes;
 
 
 const CaseMSJ = (props) => {
@@ -173,6 +173,7 @@ const CaseMSJ = (props) => {
                     </p>
                 </Textbox>
             </ShowCase>
+            <a href="#" className={topBtn}>To Top</a>
         </div>
      );
 };
