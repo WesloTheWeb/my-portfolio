@@ -5,7 +5,7 @@ import classes from '../Showcase.module.scss';
 import Textbox from '../../../../components/Textbox/Textbox';
 
 //Images
-import coverImage from '../../../../assets/images/MSJ_Sample.png';
+import coverImage from '../../../../assets/images/MCW_Sample.png';
 import initialSite from '../../../../assets/images/Cases/MSJ/MSJ_Initial.png';
 import lofiA from '../../../../assets/images/Cases/MSJ/loFi-A.png';
 import lofiB from '../../../../assets/images/Cases/MSJ/loFi-B.png';
@@ -24,7 +24,7 @@ const CaseMCW = (props) => {
     return (
         <div>
             <ShowCase
-                title="Main Street Justice"
+                title="Medical College of Wisconsin - Learning Repository"
                 image={coverImage}>
                 <Textbox>
                     <p>
