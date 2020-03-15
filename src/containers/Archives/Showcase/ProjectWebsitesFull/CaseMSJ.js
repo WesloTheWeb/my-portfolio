@@ -100,10 +100,8 @@ const CaseMSJ = (props) => {
                                 </p>
                             </li>
                             <li><strong>Person 2: Attorney seeking an office</strong>
-                                <p>Needs to navigate towards a service that they need. The user needs to see everything MSJ
-                                has to offer. There must be clear explicit instructions and short amount of clicks to get
-                                to what the end user needs. We categorize each discipline to the appropriate practice that
-                                the in house attorney has.
+                                <p>A prospect would need to see what MSJ has to offer. Including office space, and leasing rates.
+                                    Pictures and gallery to entice the user to schedule a visit.
                                 </p>
                             </li>
                         </ol>

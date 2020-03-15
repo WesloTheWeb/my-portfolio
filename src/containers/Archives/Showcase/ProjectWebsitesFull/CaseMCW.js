@@ -1,12 +1,13 @@
 import React from 'react';
 import ShowCase from '../Showcase';
 import classes from '../Showcase.module.scss';
+
 // import CodeBlock from '../../CodeBlock/CodeBlock';
 import Textbox from '../../../../components/Textbox/Textbox';
 
 //Images
 import coverImage from '../../../../assets/images/MCW_Sample.png';
-import initialSite from '../../../../assets/images/Cases/MSJ/MSJ_Initial.png';
+import initialSite from '../../../../assets/images/Cases/MCW/MCW_InitialSite.png';
 import lofiA from '../../../../assets/images/Cases/MSJ/loFi-A.png';
 import lofiB from '../../../../assets/images/Cases/MSJ/loFi-B.png';
 import lofiC from '../../../../assets/images/Cases/MSJ/loFi-C.png';
@@ -17,28 +18,28 @@ import mobileView from '../../../../assets/images/Cases/MSJ/mobile_view.png';
 import staffPage from '../../../../assets/images/Cases/MSJ/staff_page.png';
 
 
-const { info, photoArray, launchBtn, phaseTitle, topBtn } = classes;
+const { info, photoArray, launchBtn, phaseTitle, topBtn, testOne, testTwo } = classes;
 
 
 const CaseMCW = (props) => {
     return (
         <div>
             <ShowCase
-                title="Medical College of Wisconsin - Learning Repository"
+                title="Medical College of Wisconsin - Community Engagement Learning Repository (CELR)"
                 image={coverImage}>
                 <Textbox>
+                    <div className={`${testOne} ${testTwo}`}>Test</div>
                     <p>
-                        This project was actually one of my first developer projects after my bootcamp and my first freelance
-                        client role. So it holds a special place in my career, and sets up as a ground zero, if you will, in my
-                        tech journey. I not only applied what I just learned from my boot camp but also learned about negogiating,
-                        writing contract and seeing a project through. This job came from a person in my cohort who needed to outsource
-                        the project. The deal was that he handle the backend and I build the front end. The client was <strong>Main
-                        Street Justice</strong>, a local Madison law office hosting a variety of attorneys.
+                        This project I would classify as a definitive moment. This was during my time at Byte Studios working as
+                        a team of 4 that consisted of: a front end developer, a backend developer,  a UXUI Designer, and our boss
+                        acting as the lead designer / developer. Our client this time is the Medical College of Wisconsin, and they
+                        requested essentially a customized searchable database that has user authentication, and the ability for
+                        users to upload all types of media such as PDFs, videos, PowerPoint Slides, etc.
                     </p>
                     <p>
-                        With this being my first project that I not only have to design and write a contract, I needed to be really
-                        thorough in my decision. Overall it was a fun project. I would have loved to build this out from scratch,
-                        but given the circumstances and my experience at the time, it was a good test of the real world and business.
+                        The scope of this project was massive and undergone many iteration changes in design. It took a team effort
+                        to see this project through. When I joined the team, 95% of the design was already done, however during the 
+                        process of 2 - 3 months of development we faced a variety of obstacles and scope creep outside of our control.
                     </p>
                 </Textbox>
                 <div id="uwu" className="splitDivide">
@@ -46,9 +47,13 @@ const CaseMCW = (props) => {
                         <div>
                             <h3>Tools used:</h3>
                             <ul>
-                                <li>WordPress</li>
-                                <li>CSS</li>
-                                <li>Adobe XD</li>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript (ES5)</li>
+                                <li>jQuery</li>
+                                <li>PHP</li>
+                                <li>Sketch</li>
+                                <li>Invision</li>
                             </ul>
                             <h3>Role: Front End Developer</h3>
                         </div>
@@ -57,53 +62,58 @@ const CaseMCW = (props) => {
                         <div>
                             <h3>Solution</h3>
                             <ul>
-                                <li>Completed: May 9th, 2018 </li>
+                                <li>Completed: Mid April 2020 </li>
                                 <li>Available for view?: Yes</li>
                             </ul>
-                            <a href="https://www.mainstreetjustice.com" target="_blank" ><button className={launchBtn}>Launch Project</button></a>
-                            <p>We successfully completed the project within a month and half time. Client was satisfied.
-                            </p>
+                            <a href="https://celr.mcw.edu/" target="_blank" ><button className={launchBtn}>Launch Project</button></a>
                         </div>
                     </section>
                 </div>
                 <Textbox>
                     <h2 style={{ textAlign: "center", color: "#BDE0FE" }}>The User Experience (UX) and User Interface (UI) Overview:</h2>
                     <p>
-                        This project is a little different from the others in the sense that it is a WordPress redesign for the
-                        original site. This was at the request of the client, so much of the early process was finding an appropriate
-                        theme, while still having the limitations. So while it would have been easier to just build out a site, I
-                        would need to find a theme that fits the end user needs. This boiled down to:
+                       The Medical College of Wisconsin is home to many of the medical practices and students in the area. Each medstudent 
+                       is expected to conduct their own research that benefits a community. As such, the client needed a database that holds
+                       content throughout the years of med students and medical professionals whom uploaded their findings and research. 
+                       Of the problems faced, the significant one was that we did not have an existing system built out like this. We 
+                       definitely had to take a step back and build this particular search database from scratch in an effort to reuse it 
+                       on our owner's propritary content management system (CMS) called Byte. Our main objectives here were:
                         <ol>
-                            <li>Easy to edit pages.</li>
-                            <li>Self reliant systems, no need to call a developer for maintenance or a small edit.</li>
+                            <li>Two way data flow, of creating accounts and being able to upload content to the database.</li>
+                            <li>Searchable queries that brings up categorized projects. We had to take what the client requested from the old system</li>
+                            <li>Make the entire process mobile responsive to its web counterpart, including all functionality.</li>
                         </ol>
                     </p>
                     <h3>Initial Site</h3>
-                    <p>The initial site was a static HTML page. Very vanilla and no flair. As seen below:</p>
+                    <p>The initial site featured a different UI. We had to create and design a reimagined look, as well as move all the 
+                        old data into the new site. As stated earlier, I joined the team when the design was already 95% done, so the 
+                        initial design iterations are not documented from scratch. However I do cover the design changes made by our 
+                        designer when we picked this project up back in early October 2018.</p>
                     <div className={photoArray}>
                         <img src={initialSite} alt="initial site of MSJ" />
                     </div>
                 </Textbox>
                 <Textbox>
                     <h2 className={phaseTitle}>Phase 1: Research</h2>
-                    <p>One of the challenges I faced was deciding how the client wanted to layout information. This is a
-                    case I figure that is common for most freelance projects when the client does not know what they want,
-                    and only cares about the end product. To solve this I started drafting out basic functionality of
-                    potential wireframes. The idea was mainly to get the user to navigate towards information that the
-                    law office providees. I narrowed it down to two personas.
+                    <p> 
+                        The initial mock ups was slightly confusing. I did not have a frame of reference of the behavior that 
+                        we wanted nor did I really understood the initial site at the time. Instead, I started to think of doing
+                        my own research as I had a friend from college that was currently attending MCW.
                         <ol>
-                            <li><strong>Persona 1: User seeking legal advice</strong>
-                                <p>Needs to navigate towards a service that they need. The user needs to see everything MSJ
-                                has to offer. There must be clear explicit instructions and short amount of clicks to get
-                                to what the end user needs. We categorize each discipline to the appropriate practice that
-                                the in house attorney has.
+                            <li><strong>Persona 1: Med student / Researcher</strong>
+                                <p>
+                                User would need to be able to publish their findings. Should have a several presets of data
+                                fields such as area of interest, subcategories such as funding, sources, and much more. Users 
+                                should be able to submit their data in a clear way and guided through the process. Users should 
+                                also be able to edit their entries and uploads on their accounts.
                                 </p>
                             </li>
-                            <li><strong>Person 2: Attorney seeking an office</strong>
-                                <p>Needs to navigate towards a service that they need. The user needs to see everything MSJ
-                                has to offer. There must be clear explicit instructions and short amount of clicks to get
-                                to what the end user needs. We categorize each discipline to the appropriate practice that
-                                the in house attorney has.
+                            <li><strong>Person 2: Guest user </strong>
+                                <p>
+                                Everything that is uploaded into the database should be accessible. With the exception of 
+                                administrative powers such as deleting or editing entries. Prospective students, or guest 
+                                users should be able to browse the database at ease without having to make an account or sign 
+                                in.
                                 </p>
                             </li>
                         </ol>
@@ -175,7 +185,7 @@ const CaseMCW = (props) => {
             </ShowCase>
             <a href="#" className={topBtn}>To Top</a>
         </div>
-     );
+    );
 };
 
 
