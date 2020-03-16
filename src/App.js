@@ -22,28 +22,30 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Route path="/" component={Navigation} exact />
-        <Route path="/projects" component={ProjectNavigation}  />
+        <Route path="/projects" component={ProjectNavigation} />
         <Route path="/" component={Intro} exact />
         <section id="projects" className="contentSection">
           <SectionIntroduction>Projects</SectionIntroduction>
           <Route path="/projects" component={Archives} exact />
-          <Route path="/projects/kohls" 
-            component={KohlsCase} 
-            exact 
-            />
-            <Route path="/projects/msj" 
-            component={MSJCase} 
-            exact 
-            />
-            <Route path="/projects/mcw" 
-            component={MCWCase} 
-            exact 
-            />
+          <Route path="/projects/kohls"
+            component={KohlsCase}
+            exact
+          />
+          <Route path="/projects/msj"
+            component={MSJCase}
+            exact
+          />
+          <Route path="/projects/mcw"
+            component={MCWCase}
+            exact
+          />
           <Route path="/" exact>
-            <Textbox>Recent projects.<br/><b>Note: currently under construction. View full projects via Navigation or <Link to="projects">here</Link></b></Textbox>
+            <Textbox>Recent projects.<br /><b>Note: currently under construction. View full projects via Navigation or <Link
+                style={{ color: "yellow" }}
+                to="projects">here</Link></b></Textbox>
           </Route>
 
-        <Route path="/" component={ProjectView} exact />
+          <Route path="/" component={ProjectView} exact />
         </section>
         <section id="experience" className="contentSection">
           <Route path="/" component={Experience} exact />
