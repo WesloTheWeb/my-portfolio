@@ -1,6 +1,7 @@
 import React from 'react';
 import ShowCase from '../Showcase';
 import classes from '../Showcase.module.scss';
+import ShowCaseSlider from '../ShowCaseSlider/ShowCaseSlider';
 
 // import CodeBlock from '../../CodeBlock/CodeBlock';
 import Textbox from '../../../../components/Textbox/Textbox';
@@ -8,17 +9,17 @@ import Textbox from '../../../../components/Textbox/Textbox';
 //Images
 import coverImage from '../../../../assets/images/MCW_Sample.png';
 import initialSite from '../../../../assets/images/Cases/MCW/MCW_InitialSite.png';
-import lofiA from '../../../../assets/images/Cases/MSJ/loFi-A.png';
-import lofiB from '../../../../assets/images/Cases/MSJ/loFi-B.png';
-import lofiC from '../../../../assets/images/Cases/MSJ/loFi-C.png';
-import lofiD from '../../../../assets/images/Cases/MSJ/loFi-D.png';
-import lofiE from '../../../../assets/images/Cases/MSJ/lofi-E.jpg';
+//Search Repo Images
+import RepoA from '../../../../assets/images/Cases/MCW/MCW_RepoSearchA.png';
+import RepoB from '../../../../assets/images/Cases/MCW/MCW_RepoSearchB.png';
+import RepoC from '../../../../assets/images/Cases/MCW/MCW_RepoSearchC.png';
+
 import officeForm from '../../../../assets/images/Cases/MSJ/leasing_page.png';
 import mobileView from '../../../../assets/images/Cases/MSJ/mobile_view.png';
 import staffPage from '../../../../assets/images/Cases/MSJ/staff_page.png';
 
 
-const { info, photoArray, launchBtn, phaseTitle, topBtn, } = classes;
+const { info, photoArray, launchBtn, phaseTitle, topBtn } = classes;
 
 
 const CaseMCW = (props) => {
@@ -126,42 +127,51 @@ const CaseMCW = (props) => {
                 <Textbox>
                     <h2 className={phaseTitle}>Phase 2: Prototypes</h2>
                     <p>
-                        I started with purely functionality for these low fidelity wireframes. The main landing page, followed by
-                        the current roster of lawyers.
+                        Bacon ipsum dolor amet ham hock ribeye tri-tip meatball, jerky ball tip venison pork loin shankle hamburger.
+                        Cupim sirloin porchetta, spare ribs cow rump andouille. Picanha cow bacon, kevin corned beef sirloin pork loin
+                        shoulder ball tip tri-tip boudin ribeye beef ribs. Beef ribs salami frankfurter cupim, strip steak pork chop picanha
+                        pancetta rump hamburger landjaeger spare ribs.
                     </p>
-                    <div className={photoArray}>
-                        <img src={lofiA} alt="first functionality concept" />
-                        <img src={lofiB} alt="first functionality concept" />
-                    </div>
+                    <ShowCaseSlider
+                        slideImageA={RepoA}
+                        slideImageB={RepoB}
+                        slideImageC={RepoC} />
+                    {/* <div className={slideCarousel}>
+                        <img src={RepoA} alt="first functionality concept" />
+                        <img src={RepoB} alt="first functionality concept" />
+                        <img src={RepoC} alt="first functionality concept" />
+
+                    </div> */}
                     <p>
-                        The next two tabs would be disciplines followed by a list of their practices. The last tab was meant
-                        to showcase the leasing page and gallery of the office space.
+                        Bacon ipsum dolor amet ham hock ribeye tri-tip meatball, jerky ball tip venison pork loin shankle hamburger.
+                        Cupim sirloin porchetta, spare ribs cow rump andouille. Picanha cow bacon, kevin corned beef sirloin pork loin
+                        shoulder ball tip tri-tip boudin ribeye beef ribs. Beef ribs salami frankfurter cupim, strip steak pork chop picanha
+                        pancetta rump hamburger landjaeger spare ribs.
                     </p>
-                    <div className={photoArray}>
-                        <img src={lofiC} alt="first functionality concept" />
-                        <img src={lofiD} alt="first functionality concept" />
-                        <img src={lofiE} alt="medium fidelity concept" />
-                    </div>
+
                 </Textbox>
                 <Textbox>
                     <h2 className={phaseTitle}>Phase 3: Development</h2>
                     <p>
-                        Upon check in meetings with the clients from the first draft, we made modifications. We agreed to nix
-                        certain features or combine them into one. It didn't make sense to have a separate list of disciplines
-                        and practices and the available lawyer, as this would cover so much. Instead, we opted in for more
-                        roster, that displays relevant information about each attorney and a link to their external sites.
+                        Bacon ipsum dolor amet ham hock ribeye tri-tip meatball, jerky ball tip venison pork loin shankle hamburger.
+                        Cupim sirloin porchetta, spare ribs cow rump andouille. Picanha cow bacon, kevin corned beef sirloin pork loin
+                        shoulder ball tip tri-tip boudin ribeye beef ribs. Beef ribs salami frankfurter cupim, strip steak pork chop picanha
+                        pancetta rump hamburger landjaeger spare ribs.
                     </p>
                     <p>
-                        For the leasing space, instead of just a gallery, we opted in for a form with a slider of curated
-                        images of the office space. Although I also set it up as a feature should they choose to use it, or
-                        if they wished to just list out what offices are available.
+                        Bacon ipsum dolor amet ham hock ribeye tri-tip meatball, jerky ball tip venison pork loin shankle hamburger.
+                        Cupim sirloin porchetta, spare ribs cow rump andouille. Picanha cow bacon, kevin corned beef sirloin pork loin
+                        shoulder ball tip tri-tip boudin ribeye beef ribs. Beef ribs salami frankfurter cupim, strip steak pork chop picanha
+                        pancetta rump hamburger landjaeger spare ribs.
                     </p>
                     <div className={photoArray}>
                         <img src={officeForm} alt="office space form" />
                     </div>
                     <p>
-                        Thanks to WordPress, the responsiveness was already done and translated well. The theme we choose
-                        were appropriate for small businesses.
+                        Bacon ipsum dolor amet ham hock ribeye tri-tip meatball, jerky ball tip venison pork loin shankle hamburger.
+                        Cupim sirloin porchetta, spare ribs cow rump andouille. Picanha cow bacon, kevin corned beef sirloin pork loin
+                        shoulder ball tip tri-tip boudin ribeye beef ribs. Beef ribs salami frankfurter cupim, strip steak pork chop picanha
+                        pancetta rump hamburger landjaeger spare ribs.
                     </p>
                     <div className={photoArray}>
                         <img src={mobileView} alt="mobile view of the sites" />
@@ -171,19 +181,16 @@ const CaseMCW = (props) => {
                 <Textbox>
                     <h2 className={phaseTitle}>Phase 4: Reflection</h2>
                     <p>
-                        This project was a triumph victory for me, to not only earn an honest pay but pass affirmations to my
-                        budding skills as a developer. I found the business portion challenging, but thankfully my client
-                        was able to understand. it did help that they were also attorneys and offered legal advice as well in
-                        terms of writing a contract.
+                        Bacon ipsum dolor amet ham hock ribeye tri-tip meatball, jerky ball tip venison pork loin shankle hamburger.
+                        Cupim sirloin porchetta, spare ribs cow rump andouille. Picanha cow bacon, kevin corned beef sirloin pork loin
+                        shoulder ball tip tri-tip boudin ribeye beef ribs. Beef ribs salami frankfurter cupim, strip steak pork chop picanha
+                        pancetta rump hamburger landjaeger spare ribs.
                     </p>
                     <p>
-                        My cohort partner took care of the backend and hosting on a server. I was still new at the time,
-                        but this may have been a job I could have done solo. Regardless it was great experience, and
-                        acts as a snapshot to see where I started from. I felt limited on actual coding, since WordPress
-                        takes care of that, but I also understand that it is ultimately the end client's product. I would
-                        have wireframed differently and in more detail is the only thing I would change. But now I know what
-                        to look for, and have gained more skills and confidence in development, I am looking forward to the
-                        next project.
+                        Bacon ipsum dolor amet ham hock ribeye tri-tip meatball, jerky ball tip venison pork loin shankle hamburger.
+                        Cupim sirloin porchetta, spare ribs cow rump andouille. Picanha cow bacon, kevin corned beef sirloin pork loin
+                        shoulder ball tip tri-tip boudin ribeye beef ribs. Beef ribs salami frankfurter cupim, strip steak pork chop picanha
+                        pancetta rump hamburger landjaeger spare ribs.
                     </p>
                 </Textbox>
             </ShowCase>
