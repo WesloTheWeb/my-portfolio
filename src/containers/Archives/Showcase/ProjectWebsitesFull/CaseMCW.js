@@ -18,12 +18,12 @@ import mobileView from '../../../../assets/images/Cases/MSJ/mobile_view.png';
 import staffPage from '../../../../assets/images/Cases/MSJ/staff_page.png';
 
 
-const { info, photoArray, launchBtn, phaseTitle, topBtn, testOne, testTwo } = classes;
+const { info, photoArray, launchBtn, phaseTitle, topBtn, } = classes;
 
 
 const CaseMCW = (props) => {
     return (
-        <div>
+        <div id="start">
             <ShowCase
                 title="Medical College of Wisconsin - Community Engagement Learning Repository (CELR)"
                 image={coverImage}>
@@ -38,7 +38,7 @@ const CaseMCW = (props) => {
                     </p>
                     <p>
                         The scope of this project was massive and undergone many iteration changes in design. It took a team effort
-                        to see this project through. When I joined the team, 95% of the design was already done, however during the 
+                        to see this project through. When I joined the team, 95% of the design was already done, however during the
                         process of 2 - 3 months of development we faced a variety of obstacles and scope creep outside of our control.
                     </p>
                 </Textbox>
@@ -65,19 +65,23 @@ const CaseMCW = (props) => {
                                 <li>Completed: Mid April 2020 </li>
                                 <li>Available for view?: Yes</li>
                             </ul>
-                            <a href="https://celr.mcw.edu/" target="_blank" ><button className={launchBtn}>Launch Project</button></a>
+                            <a href="https://celr.mcw.edu/"
+                                target="_blank"
+                                without rel="noopener noreferrer" >
+                                <button className={launchBtn}>Launch Project</button>
+                            </a>
                         </div>
                     </section>
                 </div>
                 <Textbox>
                     <h2 style={{ textAlign: "center", color: "#BDE0FE" }}>The User Experience (UX) and User Interface (UI) Overview:</h2>
                     <p>
-                       The Medical College of Wisconsin is home to many of the medical practices and students in the area. Each medstudent 
-                       is expected to conduct their own research that benefits a community. As such, the client needed a database that holds
-                       content throughout the years of med students and medical professionals whom uploaded their findings and research. 
-                       Of the problems faced, the significant one was that we did not have an existing system built out like this. We 
-                       definitely had to take a step back and build this particular search database from scratch in an effort to reuse it 
-                       on our owner's propritary content management system (CMS) called Byte. Our main objectives here were:
+                        The Medical College of Wisconsin is home to many of the medical practices and students in the area. Each medstudent
+                        is expected to conduct their own research that benefits a community. As such, the client needed a database that holds
+                        content throughout the years of med students and medical professionals whom uploaded their findings and research.
+                        Of the problems faced, the significant one was that we did not have an existing system built out like this. We
+                        definitely had to take a step back and build this particular search database from scratch in an effort to reuse it
+                        on our owner's propritary content management system (CMS) called Byte. Our main objectives here were:
                         <ol>
                             <li>Two way data flow, of creating accounts and being able to upload content to the database.</li>
                             <li>Searchable queries that brings up categorized projects. We had to take what the client requested from the old system</li>
@@ -85,9 +89,9 @@ const CaseMCW = (props) => {
                         </ol>
                     </p>
                     <h3>Initial Site</h3>
-                    <p>The initial site featured a different UI. We had to create and design a reimagined look, as well as move all the 
-                        old data into the new site. As stated earlier, I joined the team when the design was already 95% done, so the 
-                        initial design iterations are not documented from scratch. However I do cover the design changes made by our 
+                    <p>The initial site featured a different UI. We had to create and design a reimagined look, as well as move all the
+                    old data into the new site. As stated earlier, I joined the team when the design was already 95% done, so the
+                    initial design iterations are not documented from scratch. However I do cover the design changes made by our
                         designer when we picked this project up back in early October 2018.</p>
                     <div className={photoArray}>
                         <img src={initialSite} alt="initial site of MSJ" />
@@ -95,25 +99,25 @@ const CaseMCW = (props) => {
                 </Textbox>
                 <Textbox>
                     <h2 className={phaseTitle}>Phase 1: Research</h2>
-                    <p> 
-                        The initial mock ups was slightly confusing. I did not have a frame of reference of the behavior that 
+                    <p>
+                        The initial mock ups was slightly confusing. I did not have a frame of reference of the behavior that
                         we wanted nor did I really understood the initial site at the time. Instead, I started to think of doing
                         my own research as I had a friend from college that was currently attending MCW.
                         <ol>
                             <li><strong>Persona 1: Med student / Researcher</strong>
                                 <p>
-                                User would need to be able to publish their findings. Should have a several presets of data
-                                fields such as area of interest, subcategories such as funding, sources, and much more. Users 
-                                should be able to submit their data in a clear way and guided through the process. Users should 
-                                also be able to edit their entries and uploads on their accounts.
+                                    User would need to be able to publish their findings. Should have a several presets of data
+                                    fields such as area of interest, subcategories such as funding, sources, and much more. Users
+                                    should be able to submit their data in a clear way and guided through the process. Users should
+                                    also be able to edit their entries and uploads on their accounts.
                                 </p>
                             </li>
                             <li><strong>Person 2: Guest user </strong>
                                 <p>
-                                Everything that is uploaded into the database should be accessible. With the exception of 
-                                administrative powers such as deleting or editing entries. Prospective students, or guest 
-                                users should be able to browse the database at ease without having to make an account or sign 
-                                in.
+                                    Everything that is uploaded into the database should be accessible. With the exception of
+                                    administrative powers such as deleting or editing entries. Prospective students, or guest
+                                    users should be able to browse the database at ease without having to make an account or sign
+                                    in.
                                 </p>
                             </li>
                         </ol>
@@ -183,7 +187,7 @@ const CaseMCW = (props) => {
                     </p>
                 </Textbox>
             </ShowCase>
-            <a href="#" className={topBtn}>To Top</a>
+            <a href="#start" className={topBtn}>To Top</a>
         </div>
     );
 };

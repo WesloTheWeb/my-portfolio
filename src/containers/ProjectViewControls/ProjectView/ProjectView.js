@@ -7,8 +7,6 @@ import Kohls from '../../../assets/images/Kohls_Sample.png';
 import medicalCollegeWisconsin from '../../../assets/images/MCW_Sample.png';
 import MCW_Sample from '../../../assets/files/CaseStudy-MCW.pdf';
 import mainStreetJusticeSample from '../../../assets/images/MSJ_Sample.png';
-import MSJ_Sample from '../../../assets/files/CaseStudy-MSJ.pdf';
-
 
 // CSS
 const { projectViewGrid } = classes;

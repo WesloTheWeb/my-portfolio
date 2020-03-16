@@ -22,7 +22,7 @@ const { info, photoArray, launchBtn, phaseTitle, topBtn } = classes;
 
 const CaseMSJ = (props) => {
     return (
-        <div>
+        <div id="start">
             <ShowCase
                 title="Main Street Justice"
                 image={coverImage}>
@@ -60,7 +60,11 @@ const CaseMSJ = (props) => {
                                 <li>Completed: May 9th, 2018 </li>
                                 <li>Available for view?: Yes</li>
                             </ul>
-                            <a href="https://www.mainstreetjustice.com" target="_blank" ><button className={launchBtn}>Launch Project</button></a>
+                            <a href="https://www.mainstreetjustice.com"
+                                target="_blank"
+                                without rel="noopener noreferrer" >
+                                <button className={launchBtn}>Launch Project</button>
+                            </a>
                             <p>We successfully completed the project within a month and half time. Client was satisfied.
                             </p>
                         </div>
@@ -101,7 +105,7 @@ const CaseMSJ = (props) => {
                             </li>
                             <li><strong>Person 2: Attorney seeking an office</strong>
                                 <p>A prospect would need to see what MSJ has to offer. Including office space, and leasing rates.
-                                    Pictures and gallery to entice the user to schedule a visit.
+                                Pictures and gallery to entice the user to schedule a visit.
                                 </p>
                             </li>
                         </ol>
@@ -171,9 +175,9 @@ const CaseMSJ = (props) => {
                     </p>
                 </Textbox>
             </ShowCase>
-            <a href="#" className={topBtn}>To Top</a>
+            <a href="#start" className={topBtn}>To Top</a>
         </div>
-     );
+    );
 };
 
 
