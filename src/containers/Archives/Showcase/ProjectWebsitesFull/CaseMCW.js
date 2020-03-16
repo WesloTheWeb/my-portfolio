@@ -133,9 +133,13 @@ const CaseMCW = (props) => {
                         pancetta rump hamburger landjaeger spare ribs.
                     </p>
                     <ShowCaseSlider
+                        slideNumber={3}
+                        slideWidth={125}
+                        slideHeight={60}
                         slideImageA={RepoA}
                         slideImageB={RepoB}
-                        slideImageC={RepoC} />
+                        slideImageC={RepoC}
+                    />
                     {/* <div className={slideCarousel}>
                         <img src={RepoA} alt="first functionality concept" />
                         <img src={RepoB} alt="first functionality concept" />
