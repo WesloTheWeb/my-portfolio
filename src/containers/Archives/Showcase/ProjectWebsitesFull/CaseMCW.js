@@ -19,7 +19,7 @@ import mobileView from '../../../../assets/images/Cases/MSJ/mobile_view.png';
 import staffPage from '../../../../assets/images/Cases/MSJ/staff_page.png';
 
 
-const { info, photoArray, launchBtn, phaseTitle, topBtn } = classes;
+const { info, photoArray, launchBtn, phaseTitle, topBtn, keyWord } = classes;
 
 
 const CaseMCW = (props) => {
@@ -77,12 +77,14 @@ const CaseMCW = (props) => {
                 <Textbox>
                     <h2 style={{ textAlign: "center", color: "#BDE0FE" }}>The User Experience (UX) and User Interface (UI) Overview:</h2>
                     <p>
-                        The Medical College of Wisconsin is home to many of the medical practices and students in the area. Each medstudent
-                        is expected to conduct their own research that benefits a community. As such, the client needed a database that holds
-                        content throughout the years of med students and medical professionals whom uploaded their findings and research.
-                        Of the problems faced, the significant one was that we did not have an existing system built out like this. We
-                        definitely had to take a step back and build this particular search database from scratch in an effort to reuse it
-                        on our owner's propritary content management system (CMS) called Byte. Our main objectives here were:
+                        The Medical College of Wisconsin is home to many of the medical practices and students in the area. Each medical student
+                        is required to do a research project in order to qualify for graduation. Students conduct their own research that
+                        on a variety of topics, including some that may benefit a community or shine light on an issue plaguing a community.
+                        As such, the client needed a database that holds content throughout the years of med students and medical professionals
+                        whom uploaded their findings and research. Of the problems faced, the significant one was that we did not
+                        have an existing system built out like this. We definitely had to take a step back and build this particular
+                        search database from scratch in an effort to reuse it on our owner's propritary
+                        content management system (CMS) called Byte. Our main objectives here were:
                         <ol>
                             <li>Two way data flow, of creating accounts and being able to upload content to the database.</li>
                             <li>Searchable queries that brings up categorized projects. We had to take what the client requested from the old system</li>
@@ -127,10 +129,19 @@ const CaseMCW = (props) => {
                 <Textbox>
                     <h2 className={phaseTitle}>Phase 2: Prototypes</h2>
                     <p>
-                        Bacon ipsum dolor amet ham hock ribeye tri-tip meatball, jerky ball tip venison pork loin shankle hamburger.
-                        Cupim sirloin porchetta, spare ribs cow rump andouille. Picanha cow bacon, kevin corned beef sirloin pork loin
-                        shoulder ball tip tri-tip boudin ribeye beef ribs. Beef ribs salami frankfurter cupim, strip steak pork chop picanha
-                        pancetta rump hamburger landjaeger spare ribs.
+                        Fortunately, the designs were labeled and spec'd out appropriately. This is a massive project and we
+                        needed to divide it up. I needed to focus on one particular area at a time, as the sole front end
+                        developer. 
+                    </p>
+                    <h3>Homepage</h3>
+                    <p>First was the home page as listed below. This page features a search menu attached to a tertiary menu. 
+                        This menu is three levels deep.
+                        <ol>
+                            <li>The <strong className={keyWord}>first menu</strong> has the three main categories of "Health Focus Areas", "Languages" and "Product Types</li>
+                            <li>The <strong className={keyWord}>secondary menu</strong> has submenus for specific categories related to the parent categories 
+                                it is nested in.</li>
+                            <li>The <strong className={keyWord}>third menu</strong> is specifically tailored to the second categories and presents more options.</li>
+                        </ol>
                     </p>
                     <ShowCaseSlider
                         slideNumber={3}
@@ -140,6 +151,15 @@ const CaseMCW = (props) => {
                         slideImageB={RepoB}
                         slideImageC={RepoC}
                     />
+                    <p>
+                        In addition, the menu needed to be fluid and responsive to the page. When minimized, the repostiory
+                        information should take up any whitespace, and the opposite for when the menu is expanded. The choices
+                        a user can select is based off the database and results will show immediately once the parameter were up.
+                        This was rather difficult, as we did not have the backend up. I had to just lay down the ground works,
+                        and write my JavaScript functions to be as modular as possible. Not to mention, the tech stack was also
+                        using jQuery for AJAX calls.
+                    </p>
+     
                     {/* <div className={slideCarousel}>
                         <img src={RepoA} alt="first functionality concept" />
                         <img src={RepoB} alt="first functionality concept" />

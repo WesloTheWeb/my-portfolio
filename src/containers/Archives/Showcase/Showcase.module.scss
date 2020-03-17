@@ -16,6 +16,9 @@
         width: 80%;
     }
 }
+
+//Text
+
 .info {
     color: $generalTextColor;
     background-color: $generalTextBackground;
@@ -26,6 +29,10 @@
     font-size: $generalTextSize;
     margin: 0 auto;
     width:65%;
+}
+
+.keyWord {
+    color: $keyWordColor;
 }
 
 .photoArray {
