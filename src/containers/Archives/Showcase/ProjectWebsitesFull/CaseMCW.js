@@ -131,14 +131,14 @@ const CaseMCW = (props) => {
                     <p>
                         Fortunately, the designs were labeled and spec'd out appropriately. This is a massive project and we
                         needed to divide it up. I needed to focus on one particular area at a time, as the sole front end
-                        developer. 
+                        developer.
                     </p>
                     <h3>Homepage</h3>
-                    <p>First was the home page as listed below. This page features a search menu attached to a tertiary menu. 
-                        This menu is three levels deep.
+                    <p>First was the home page as listed below. This page features a search menu attached to a tertiary menu.
+                    This menu is three levels deep.
                         <ol>
                             <li>The <strong className={keyWord}>first menu</strong> has the three main categories of "Health Focus Areas", "Languages" and "Product Types</li>
-                            <li>The <strong className={keyWord}>secondary menu</strong> has submenus for specific categories related to the parent categories 
+                            <li>The <strong className={keyWord}>secondary menu</strong> has submenus for specific categories related to the parent categories
                                 it is nested in.</li>
                             <li>The <strong className={keyWord}>third menu</strong> is specifically tailored to the second categories and presents more options.</li>
                         </ol>
@@ -159,7 +159,9 @@ const CaseMCW = (props) => {
                         and write my JavaScript functions to be as modular as possible. Not to mention, the tech stack was also
                         using jQuery for AJAX calls.
                     </p>
-     
+                    <h3>Making a Collection</h3>
+                    <p>First was the home page as listed below. This page features a search menu attached to a tertiary menu.
+                    This menu is three levels deep.</p>
                     {/* <div className={slideCarousel}>
                         <img src={RepoA} alt="first functionality concept" />
                         <img src={RepoB} alt="first functionality concept" />
@@ -172,7 +174,20 @@ const CaseMCW = (props) => {
                         shoulder ball tip tri-tip boudin ribeye beef ribs. Beef ribs salami frankfurter cupim, strip steak pork chop picanha
                         pancetta rump hamburger landjaeger spare ribs.
                     </p>
-
+                    <h3>Publishing a Collection</h3>
+                    <p>First was the home page as listed below. This page features a search menu attached to a tertiary menu.
+                    This menu is three levels deep.</p>
+                    <p>
+                        In addition, the menu needed to be fluid and responsive to the page. When minimized, the repostiory
+                        information should take up any whitespace, and the opposite for when the menu is expanded. The choices
+                        a user can select is based off the database and results will show immediately once the parameter were up.
+                        This was rather difficult, as we did not have the backend up. I had to just lay down the ground works,
+                        and write my JavaScript functions to be as modular as possible. Not to mention, the tech stack was also
+                        using jQuery for AJAX calls.
+                    </p>
+                    <h3>Logout and LoginCcollection View</h3>
+                    <p>First was the home page as listed below. This page features a search menu attached to a tertiary menu.
+                    This menu is three levels deep.</p>
                 </Textbox>
                 <Textbox>
                     <h2 className={phaseTitle}>Phase 3: Development</h2>
