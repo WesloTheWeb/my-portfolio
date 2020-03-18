@@ -7,13 +7,20 @@ const bio = (props) => {
         <div>
             <SectionIntroduction>To a Hero From a Side Kick...</SectionIntroduction>
             <Textbox>
-                My name is Wesley Webster. I am a front end developer based in Milwaukee, WI. I build things. I design things.
-                And I also aim to be a great software engineer one day. There's nothing I love more than learning. Every day,
-                I always think of ways to improve existing apps or building something that can help people.<br /> <br />
-
-                I come from a non traditional background. I did a tech boot camp at Madison's YWeb Career Academy in fall of 2017.
-                Since then, I moved back to Milwaukee and continue learning through courses on a self taught path, attending numerous
-                tech meet ups, staying hungry and getting out of my comfort zone.
+                <p>
+                My name is Wesley Webster. I am a Filipino front end developer based in Milwaukee, WI. I build things. I design things.
+                I am an avid fan of the Hero's Journey and pushing one's self to the limits. I aim to be a great software engineer 
+                one day. There's nothing I love more than learning. Every day, I think of code in one way or the other, or ways to 
+                try and experiment with new things.
+                </p>
+                <p>
+                I come from a non traditional background. You may be wondering why the tagline features a superhero motif, but I
+                am a fan of comics, mangas and videogames. I use a superheo analogy as I was in a dark place 2016 to 2017. I did 
+                a tech boot camp at Madison's YWeb Career Academy in the fall of 2017. Since then, through hard work and determination,
+                I have willed myself in this tech space -- something that never would have crossed my mind. I have been self-taught
+                since then, utilizing various resources around me and constantly putting myself out there and overall <b>redefine</b> myself. 
+                This is a work in progress, and soon will lead to a blog. Here is some of my work and what I can do. 
+                </p>
             </Textbox>
             <Textbox>
             <h2>Current Skills:</h2>
