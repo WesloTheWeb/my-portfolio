@@ -32,7 +32,6 @@ const bio = (props) => {
                         <li>jQuery</li>
                         <li>Adobe (Photoshop XD Illustrator)</li>
                         <li>Sketch</li>
-                        <li>Google Analytics</li>
                     </ul>
                     <ul>
                         <li>React.JS</li>
@@ -41,7 +40,6 @@ const bio = (props) => {
                         <li>API's</li>
                         <li>Agile</li>
                         <li>WordPress</li>
-                        <li>UX/UI Design and Research</li>
 
                     </ul>
                 </div>
