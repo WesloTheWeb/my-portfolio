@@ -9,8 +9,22 @@ const { experienceSpotlight } = classes;
 const experience = (props) => {
     return (
         <>
-        <SectionIntroduction>Experience</SectionIntroduction>
+            <SectionIntroduction>Experience</SectionIntroduction>
             <VerticalTimeline>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    date="June 2020 - present"
+                    contentStyle={{ background: 'rgb(255,140,0)' }}
+                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                >
+                    <h3 className={experienceSpotlight}>NVISIA - Software Developer</h3>
+                    <h4 className={experienceSpotlight}>Milwaukee, WI.</h4>
+                    <p>
+                        <ul>
+                            <li>Worked on the creative team to design and develop applications</li>
+                        </ul>
+                    </p>
+                </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
