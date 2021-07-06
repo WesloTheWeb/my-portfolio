@@ -34,20 +34,19 @@ const bio = (props) => {
                         <li>Sketch</li>
                     </ul>
                     <ul>
-                        <li>React.JS</li>
-                        <li>Node.JS</li>
+                        <li>ReactJS</li>
+                        <li>VueJS</li>
+                        <li>NodeJS</li>
                         <li>Github / Git</li>
                         <li>API's</li>
                         <li>Agile</li>
                         <li>WordPress</li>
-
+                        <li>HubSpot</li>
                     </ul>
                 </div>
-
             </Textbox>
         </div>
     );
 };
-
 
 export default bio;

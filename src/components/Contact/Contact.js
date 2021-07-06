@@ -15,5 +15,4 @@ const contact = (props) => {
     );
 };
 
-
 export default contact;

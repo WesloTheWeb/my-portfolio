@@ -6,9 +6,7 @@ import MobileNavigation from './MobileNavigation/MobileNavigation';
 // import Collection from './containers/Collection/Collection';
 import { Link } from 'react-router-dom';
 
-
 const { nav, navContainer } = classes;
-
  
 const Navigation = (props) => {
 
@@ -35,6 +33,5 @@ const Navigation = (props) => {
         </Auxillary>
      );
 };
-
 
 export default Navigation;

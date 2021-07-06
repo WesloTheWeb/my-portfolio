@@ -25,5 +25,4 @@ const archives = (props) => {
     );
 };
 
-
 export default archives;

@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import MobileToggle from './MobileToggle/MobileToggle';
 import resume from '../../../assets/files/WesleyWebster_Resume.pdf';
 
-
 const mobileNavigation = (props) => {
 
     return (
@@ -25,6 +24,5 @@ const mobileNavigation = (props) => {
         </div>
     );
 };
-
 
 export default mobileNavigation;

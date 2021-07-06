@@ -14,5 +14,4 @@ const projectViewControls = (props) => {
     );
 };
 
-
 export default projectViewControls;

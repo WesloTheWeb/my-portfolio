@@ -40,12 +40,8 @@ const social = (props) => {
                 </div>
             </section>
             </section>
- 
-             
-
         </Auxillary>
     );
 };
-
 
 export default social;

@@ -11,5 +11,4 @@ const foo = (props) => {
     );
 };
 
-
 export default foo;

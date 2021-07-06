@@ -40,7 +40,10 @@ function App() {
             exact
           />
           <Route path="/" exact>
-            <Textbox>Recent projects.<br /><b>Note: currently under construction. View full projects via Navigation or <Link
+            <Textbox>Recent projects.<br /><b>Note: 7/5/2021 - Wow! Been forever since I edited anything here. I want to redo
+              my portfolio site as I have grown <b>significantly</b> in the skillset that I offer. Unfortunately most of my
+              day to day work are under a NDA. But I am back to building, studying again on my own time and would love to chat.
+              I am aiming on re-doing this site in the near future, but feel free to look at my github. <Link
                 style={{ color: "yellow" }}
                 to="projects">here</Link></b></Textbox>
           </Route>
